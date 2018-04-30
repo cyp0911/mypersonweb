@@ -136,7 +136,7 @@
 							I love travel, watching sports game. I spent most of my spare time to read coding books and surf on some technique Website. 
 						</p>
                         <p>
-                        <a href="attach/Yinpeng Chen-Resume.pdf" download target="_blank" class="waves-effect waves-light btn-large resume-btn"><i class="fa fa-download left"></i>Resume Download</a>
+                        <a href="attach/Yinpeng_Chen_Resume" download target="_blank" class="waves-effect waves-light btn-large resume-btn"><i class="fa fa-download left"></i>Resume Download</a>
                         </p>
 					</div>
 					<div class="col-sm-5">
@@ -199,7 +199,7 @@
 
 	<!-- Project 2 -->
 	<div class="container">
-		
+
 
 	</div>
 
@@ -252,6 +252,7 @@
                             <div class="item">                      
                                 <h3><i class="fa fa-graduation-cap"></i> MSc Computer Science</h3>
                                 <h4>Acadia University<span class="year">(2014-2018)</span></h4>
+                                <h4><b>GPA:3.0/4.0</b></h4>
                             </div><!--//item-->
                             <div class="item">
                                 <h3><i class="fa fa-graduation-cap"></i> BSc Network Engineering</h3>
@@ -407,9 +408,9 @@ var myCenter = new google.maps.LatLng(45.087733, -64.365527);
 		function initialize() {
 		var mapProp = {
 		center:myCenter,
-		zoom:12,
+		zoom:5,
 		scrollwheel:true,
-		draggable:false,
+		draggable:true,
 		mapTypeId:google.maps.MapTypeId.ROADMAP
 		};
 		  
